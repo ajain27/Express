@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= examples %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	<% include templates/headers.ejs %>
+
+    <h1><%= examples %> 	of NodeJs</h1>
+  	
+    	<code> <DIV style="margin-left: 30px;">
+               const http = require('http');
+            const hostname = '127.0.0.1';<br/>
+            const port = 1337;<br/>
+            http.createServer((req, res) => {<br/>
+              res.writeHead(200, { 'Content-Type': 'text/plain' });<br/>
+              res.end('Hello World\n');<br/>
+            }).listen(port, hostname, () => {<br/>
+              console.log(`Server running at http://${hostname}:${port}/`);<br/>
+            });<br/>
+             </DIV></code>
+            
+
+  </body>
+</html>
