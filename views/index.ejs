@@ -1,23 +1,28 @@
-<!DOCTYPE html>
-<html>
+  <!DOCTYPE html>
+  <html>
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
-  <body>
-  	<% include templates/headers.ejs %>
-<!--     <nav class="navbar navbar-inverse navbar-static-top">     
-      <ul class="nav nav-pills">
-      	<h1 style="color:blue;margin-left:30px;">Node Js Tutorial</h1>
-      </ul>
-    </nav> -->
+  <body style="background-color:#F5F5F5;">
+    <% include templates/headers.ejs %>
+  	<% include templates/sidebar.ejs %>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h3>Hello World!</h3>
+      <div class="container-fluid" style="margin-top: 30px;">
+        <div class="row-fluid">
+          <div class="col-xs-12 col-md-9">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                This is it !!
+              </div>
+              <div class="panel-body">
+                <video width="720" height="480" controls>
+                    <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+                 </video>
+              </div>              
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-
   </body>
-</html>
+  </html>

@@ -11,6 +11,8 @@ var examples = require('./routes/examples');
 
 var app = express();
 
+// app.locals.food = require('./videodata.json');
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');

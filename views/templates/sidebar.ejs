@@ -1,0 +1,33 @@
+<div class="row-fluid" style="margin-top: 30px;">
+  <div class="col-xs-6 col-md-3">
+      <div class="panel panel-default">
+        <div class = "panel-heading">
+          Appetizers & Sides
+        </div>
+        <div class="panel-body">
+          <ul style=" list-style-type: none">
+            <% food.categories.forEach(function(item){ %>
+
+            <li style="line-height:1.5em;"><a class="appetizerslinks" href="?cat=<%= item.categoryID %>
+            "><%=item.categoryName %></a></li>
+
+           <% }) %>
+          </ul>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div style="background-color:#F5F5F5" class="panel-heading">
+         Snacks & Starters
+        </div>
+        <div class="panel-body">
+          <ul>
+            <% food.categories.forEach(function(item){ %>
+
+           <li style="line-height:1.5em;"><a class="appetizerslinks" href=""> <%= item.categoryDescription %></a> </li>
+
+            <% }) %>
+          </ul>
+        </div>
+      </div>
+  </div>
+</div>

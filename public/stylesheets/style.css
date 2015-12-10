@@ -48,6 +48,22 @@ template {
 a {
   background-color: transparent;
 }
+/*.manpagelinks li a:hover {
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+}
+.manpagelinks li a {
+  font-size: 20px;
+  line-height: 3em;
+}
+*/
+.appetizerslinks:hover {
+  background-color: #4d4d4d;
+  color: white;
+  text-decoration: none;
+
+}
 a:active,
 a:hover {
   outline: 0;

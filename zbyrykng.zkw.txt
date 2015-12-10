@@ -1,0 +1,17 @@
+﻿Changes 
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   app.js
+#	new file:   oaikakvx.mv5.txt
+#	modified:   public/stylesheets/style.css
+#	modified:   routes/index.js
+#	new file:   videodata.json
+#	modified:   views/index.ejs
+#	modified:   views/templates/headers.ejs
+#	new file:   views/templates/sidebar.ejs
+#
+
